@@ -1,8 +1,11 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 import styles from '../styles/Home.module.css'
+import Dwellers from './dwellers';
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <div className={styles.container}>
       <Head>
@@ -11,15 +14,10 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          THE ENVIRONMENT
+          ThE ENviRoNMeNT
         </h1>
 
-        <div className={styles.description}>
-          ENTER
-        </div>
-        <div className={styles.description}>
-          ABOUT
-        </div>
+        <Dwellers></Dwellers>
       </main>
     </div>
   )

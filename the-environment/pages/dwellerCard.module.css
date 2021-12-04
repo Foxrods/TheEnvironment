@@ -1,0 +1,35 @@
+@font-face {
+    font-family: thin-king;
+    src: url("../public/Thin king.ttf") format("truetype");
+  }
+
+.closed{
+    height: 250px;
+    margin: 10px 90px 10px 90px;
+    position: relative;
+    transition: 0.8s ease;
+}
+
+.open{
+    height: 1100px;
+    margin: 10px 90px 10px 90px;
+    position: relative;
+    transition: 0.8s ease;
+}
+
+.closed:hover{
+    height: 320px;
+}
+
+.dwellerName{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 20px;
+    word-spacing: 50px;
+    text-align: center;
+    height: 60px;
+    font-weight: 100;
+    font-size: 70px;
+    color: white;
+    font-family: "thin-king", monospace;
+}
