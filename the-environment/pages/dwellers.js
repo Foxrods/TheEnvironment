@@ -19,14 +19,12 @@ import wirerepairer from '../images/wirerepairer.png'
 import worm from '../images/worm.png'
 
 export default function Dwellers(){
-    // const res = await fetch(`https://.../api/dwellersApi/Fairy`);
-    // const data = await res.json();
     return (
         <div className={style.main}>
             <DwellerCard
                 name="Prototype"
                 src={prototype}
-                position="0 22.5%">  
+                position="0 26%">  
             </DwellerCard>
             <DwellerCard
                 name="Host"
