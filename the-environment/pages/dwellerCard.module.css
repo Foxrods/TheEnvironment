@@ -4,42 +4,41 @@
   }
 
 .closed{
-    height: 250px;
-    margin: 10px 90px 10px 90px;
+    height: 18vw;
+    margin: 10px 7% 10px 7%;
     position: relative;
     transition: 0.8s ease;
 }
 
 .open{
-    height: 1100px;
-    margin: 10px 90px 10px 90px;
+    height: 70vw;
+    margin: 10px 7% 10px 7%;
     position: relative;
     transition: 0.8s ease;
 }
 
 .closed:hover{
-    height: 320px;
+    height: 22vw;
 }
 
 .dwellerName{
     margin: 0;
     padding: 0;
-    letter-spacing: 20px;
-    word-spacing: 30px;
-    font-size: 70px;
+    letter-spacing: 2.5vmin;
+    word-spacing: 3vmin;
+    font-size: 12vmin;
     text-align: center;
-    height: 60px;
     font-weight: 100;
     color: white;
     font-family: "thin-king", monospace;
 }
 
 .description{
-    font-size: 26px;
+    font-size: 4vmin;
     letter-spacing: 1px;
     line-height: 120%;
     height: fit-content !important;
-    margin: 20px 90px 20px 90px;
+    margin: 10px 7% 20px 7%;
     text-align: justify;
     text-justify: inter-word;
     height: 60px;

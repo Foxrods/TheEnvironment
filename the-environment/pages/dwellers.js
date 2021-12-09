@@ -29,7 +29,7 @@ export default function Dwellers(){
             <DwellerCard
                 name="Host"
                 src={host}
-                position="0 22.5%">  
+                position="0 30%">  
             </DwellerCard>
             <DwellerCard
                 name="Frontliner"

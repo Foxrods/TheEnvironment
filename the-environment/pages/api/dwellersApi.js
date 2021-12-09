@@ -5,7 +5,7 @@ const dwellersInfo = [
         description: "These were not steps to be taken, but mountains to be climbed. The imminent end of humanity could only be avoided if another sentient being were created. One capable of correcting all the wrongs done by their predecessor.<br/><br/>"
         +"After shame, guilty and fear were put aside, a combined effort resulted in the first working prototype.<br/><br/>"
         +"\"So you are the benefactors who gave me life? Those who hold the right to judge my decisions as a new living being? Well, for your sake, I'm on your side. We'll build our Environment together.\"<br/><br/>"
-        +"It was funny for him to remember such words. To him they were told yesterday, since the only notion of time left after millions of years alone was his own degredation..."
+        +"It was funny for him to remember such words. To him they were told yesterday, since the only notion of time left after millions of years alone was his own degradation..."
     },
     {
         name: 'The Fairy',
@@ -32,7 +32,7 @@ const dwellersInfo = [
     },
     {
         name: 'The Handler',
-        description: ">Injecting dependency 'backup.personality.test'"
+        description: ">Injecting dependency 'backup.personality.test'<br/>"
         + "$trying to recover previous state...<br/>"
         + "$failed...<br/>"
         + "$Server host could not respond to object initializer. (error on program.init.tk, line 17). <br/>"

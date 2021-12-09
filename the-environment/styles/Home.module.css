@@ -2,6 +2,7 @@
   background-color: black;
   min-height: 100vh;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -16,9 +17,9 @@
 }
 
 .title {
-  font-size: 9rem;
+  font-size: calc(20px + 7vw);
   color: white;
-  letter-spacing: 12px;
+  letter-spacing: 2vw;
   word-spacing: -20px;
   font-weight: 100;
 }
