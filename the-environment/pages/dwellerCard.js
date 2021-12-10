@@ -13,7 +13,7 @@ export default function DwellerCard(props){
 
     async function setOpen(){
         if(description == "" && !isOpen){
-            const res = await fetch(`http://localhost:3000/api/dwellersApi?name=The+${props.name}`)
+            const res = await fetch(`${process.env.HOST}api/dwellersApi?name=The+${props.name}`)
             const data = await res.json()
             setDescription(data.description);
         }
