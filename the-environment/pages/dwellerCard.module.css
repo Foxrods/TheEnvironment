@@ -8,6 +8,7 @@
     margin: 10px 7% 10px 7%;
     position: relative;
     transition: 0.8s ease;
+    cursor: pointer;
 }
 
 .open{
@@ -15,6 +16,7 @@
     margin: 10px 7% 10px 7%;
     position: relative;
     transition: 0.8s ease;
+    cursor: pointer;
 }
 
 .closed:hover{
